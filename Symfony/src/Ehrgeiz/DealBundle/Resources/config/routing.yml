@@ -1,0 +1,7 @@
+ehrgeiz_deal_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: EhrgeizDealBundle:Default:index }
+
+deal:
+    pattern:  /deal/{name}
+    defaults: { _controller: EhrgeizDealBundle:Deal:index }

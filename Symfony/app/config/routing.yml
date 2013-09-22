@@ -1,0 +1,4 @@
+ehrgeiz_deal:
+    resource: "@EhrgeizDealBundle/Resources/config/routing.yml"
+    prefix:   /
+
