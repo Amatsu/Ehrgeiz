@@ -1,0 +1,61 @@
+{% extends '::base.html.twig' %}
+
+{% block meta %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0," />
+{% endblock %}
+
+{% block title %}Open Deal!!{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('bundles/deal/css/deal.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('bundles/deal/js/jquery-1.9.1.js') }}" type="text/javascript"></script>
+{% endblock %}
+
+{% block body %}
+     Hello {{ name }}!
+    <div class="main">
+
+        <div class="chart">
+            <canvas id="chartCanvas" style="width:400px;height:200px;"></canvas>
+        </div>
+        <div class="buttonList">
+            {#<button type="button" class="sell" id="sell" >89</button>#}
+            {#<button type="button" class="pay" id="pay">全決済</button>#}
+            {#<button type="button" class="buy" id="buy">91</button>#}
+            <button type="button" class="buyButton">Buy</button>
+            <button type="button" class="sellButton">Sell</button>
+        </div>
+        {#<input type="button" id="writeChart" value="実行" />#}
+        <div class="price">9,800</div>
+        <div class="money">
+            <!-- <img src="image/money.gif"/> -->
+            保有資産：<span id="fund">1000000</span><br/>
+            (評価損益:<span>1000</span>)<br/>
+        </div>
+        <!--売買商品一覧 -->
+        <div class="commodity">
+            平均単価：<span id="buyPositionData">00</span><br/>
+            数量：<span id="buyPositionCount">0</span><br/>
+            {#<table class="positionList">#}
+                {#<thead>#}
+                {#<tr>#}
+                    {#<th>ポジション</th>#}
+                    {#<th style="text-align:center;">平均単価</th>#}
+                    {#<th style="text-align:center;">数量</th>#}
+                {#</tr>#}
+                {#</thead>#}
+                {#<tbody>#}
+                {#<tr>#}
+                    {#<td>赤ワイン</td>#}
+                    {#<td style="text-align:right;"><span id="buyPositionData">00</span></td>#}
+                    {#<td style="text-align:right;"><span id="buyPositionCount">0</span></td>#}
+                {#</tr>#}
+                {#</tbody>#}
+            {#</table>#}
+        </div>
+    </div>
+{% endblock %}

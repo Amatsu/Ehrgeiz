@@ -1,0 +1,138 @@
+body{
+	background-color: #ffffcc;
+}
+
+div.main{
+    margin: 0px;
+    padding: 1px;
+    width: 320px;
+    height: 480px;
+}
+div.order{}
+
+div.chart{
+	border: solid 1px;
+    width: 320px;
+    height: 200px;
+}
+
+div.status{
+	background: rgba(200, 200, 200, 0.3);
+}
+
+div.buttonList{
+    margin-top: 10px;
+	width: 150px;
+	text-align: left;
+	clear: left;
+    float: left;
+}
+
+div.price{
+    height:50px;
+    top: -50px;
+    position: relative;
+    color: #3611FE;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: right;
+    width: 320px;
+    margin: 0px;
+}
+
+div.money{
+    text-align: right;
+	height:50px;
+    width: 320px;
+	margin: 0px;
+}
+
+div.commodity{
+    width: 320px;
+    height: 150px;
+    text-align: right;
+}
+
+/*button.buy {*/
+	/*height: 50px;*/
+	/*width: 150px;*/
+	/*margin: 0px;*/
+	/*text-align: center;*/
+	/*font-family: mplus-2m-light, Helvetica, sans-serif;*/
+	/*font-size: 20px;*/
+	/*color: #ffffff;*/
+	/*padding: 10px 20px;*/
+	/*background-color: #FB0052;*/
+	/*border: 0px;*/
+
+/**/
+	/*background-image: url("../image/arrow_up.png");*/
+	/*background-position-x: 5px;*/
+	/*background-position-y: 5px;*/
+	/*background-repeat: no-repeat;*/
+/**/
+
+/*}*/
+/*button.buy:hover{*/
+	/*background-color: #7F0030;*/
+/*}*/
+
+/*button.sell{*/
+	/*height: 50px;*/
+	/*width: 150px;*/
+	/*margin: 0px;*/
+	/*text-align: center;*/
+	/*font-family: mplus-2m-light, Helvetica, sans-serif;*/
+	/*font-size: 20px;*/
+	/*color: #ffffff;*/
+	/*padding: 10px 20px;*/
+	/*background-color: #3611FE;*/
+	/*border: 0px;*/
+	/*float:left;*/
+/*}*/
+/*button.sell:hover{*/
+	/*background-color: #05007B;*/
+/*}*/
+/*button.pay {*/
+	/*height: 50px;*/
+	/*width: 100px;*/
+	/*margin: 0px;*/
+	/*font-family: mplus-2m-light, Helvetica, sans-serif;*/
+	/*font-size: 20px;*/
+	/*color: #ffffff;*/
+	/*padding: 10px 20px;*/
+	/*background-color: #FFAB01;*/
+	/*border:  0px;*/
+	/*float:left;*/
+/*}*/
+/*button.pay:hover{*/
+	/*background-color: #FF7027;*/
+/*}*/
+
+button.buyButton{
+    border: 0px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #FB0052;
+    display: block;
+    width:  100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+button.sellButton{
+    border: 0px;
+    font-size: 15px;
+    margin-left: 80px;
+    color: #ffffff;
+    background-color: #3611FE;
+    display: block;
+    width:  50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}

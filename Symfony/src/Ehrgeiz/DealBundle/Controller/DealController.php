@@ -2,12 +2,12 @@
 
 namespace Ehrgeiz\DealBundle\Controller;
 
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DealController
+class DealController extends Controller
 {
     public function indexAction($name)
     {
-        return new Response('<html><body>Hello '.$name.'!</body></html>');
+        return $this->render('EhrgeizDealBundle:Deal:Deal.html.twig', array('name' => $name));
     }
 }
