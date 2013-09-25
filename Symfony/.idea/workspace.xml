@@ -8,7 +8,7 @@
     <file path="/routing.yml" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1379773882623" ignored="false" />
     <file path="/DealController.php" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1379774994162" ignored="false" />
     <file path="/Deal.html.twig" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1380034593783" ignored="false" />
-    <file path="$PROJECT_DIR$/app/logs/dev.log" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1380034779879" ignored="false" />
+    <file path="$PROJECT_DIR$/app/logs/dev.log" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1380039748503" ignored="false" />
     <file path="/deal.css" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1380034725786" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/classes.php" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1379853096651" ignored="false" />
     <file path="/base.html.twig" changelist="a1a7e58d-c9cf-459a-a073-9c1a82e2613f" time="1380034558866" ignored="false" />
@@ -34,7 +34,16 @@
       <file leaf-file-name="deal.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/bundles/deal/css/deal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="21" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.27684563">
+            <state line="45" column="13" selection-start="619" selection-end="619" vertical-scroll-proportion="0.70469797">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_dev.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="498" selection-end="824" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -77,6 +86,7 @@
         <option value="$PROJECT_DIR$/web/css/deal.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Ehrgeiz/DealBundle/Resources/views/Deal/Deal.html.twig" />
+        <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/web/bundles/deal/css/deal.css" />
       </list>
     </option>
@@ -534,9 +544,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="498" selection-end="824" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/deal/css/deal.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="21" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.27684563">
+        <state line="45" column="13" selection-start="619" selection-end="619" vertical-scroll-proportion="0.70469797">
           <folding />
         </state>
       </provider>

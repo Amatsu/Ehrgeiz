@@ -5,14 +5,14 @@ body{
 div.main{
     margin: 0px;
     padding: 1px;
-    width: 320px;
+    width: 300px;
     height: 480px;
 }
 div.order{}
 
 div.chart{
 	border: solid 1px;
-    width: 320px;
+    width: 300px;
     height: 200px;
 }
 
@@ -36,19 +36,19 @@ div.price{
     font-weight: bold;
     font-size: 35px;
     text-align: right;
-    width: 320px;
+    width: 300px;
     margin: 0px;
 }
 
 div.money{
     text-align: right;
 	height:50px;
-    width: 320px;
+    width: 300px;
 	margin: 0px;
 }
 
 div.commodity{
-    width: 320px;
+    width: 300px;
     height: 150px;
     text-align: right;
 }
