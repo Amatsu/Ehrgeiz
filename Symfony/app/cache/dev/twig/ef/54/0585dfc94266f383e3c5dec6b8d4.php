@@ -33,106 +33,116 @@ class __TwigTemplate_ef540585dfc94266f383e3c5dec6b8d4 extends Twig_Template
     {
         // line 4
         echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,\" />
+    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />
+    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\" />
 ";
     }
 
-    // line 7
+    // line 9
     public function block_title($context, array $blocks = array())
     {
         echo "Open Deal!!";
     }
 
-    // line 9
+    // line 11
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 10
+        // line 12
         echo "    ";
         $this->displayParentBlock("stylesheets", $context, $blocks);
         echo "
     <link href=\"";
-        // line 11
+        // line 13
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/deal/css/deal.css"), "html", null, true);
         echo "\" type=\"text/css\" rel=\"stylesheet\" />
 ";
     }
 
-    // line 14
+    // line 16
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 15
+        // line 17
         echo "    <script src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/deal/js/jquery-1.9.1.js"), "html", null, true);
         echo "\" type=\"text/javascript\"></script>
 ";
     }
 
-    // line 18
+    // line 20
     public function block_body($context, array $blocks = array())
     {
-        // line 19
-        echo "     Hello ";
-        echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")), "html", null, true);
-        echo "!
-    <div class=\"main\">
+        // line 21
+        echo "    <div class=\"main\">
 
         <div class=\"chart\">
             <canvas id=\"chartCanvas\" style=\"width:400px;height:200px;\"></canvas>
         </div>
         <div class=\"buttonList\">
             ";
-        // line 27
-        echo "            ";
         // line 28
         echo "            ";
         // line 29
+        echo "            ";
+        // line 30
         echo "            <button type=\"button\" class=\"buyButton\">Buy</button>
             <button type=\"button\" class=\"sellButton\">Sell</button>
         </div>
         ";
-        // line 33
+        // line 34
         echo "        <div class=\"price\">9,800</div>
-        <div class=\"money\">
-            <!-- <img src=\"image/money.gif\"/> -->
-            保有資産：<span id=\"fund\">1000000</span><br/>
-            (評価損益:<span>1000</span>)<br/>
-        </div>
         <!--売買商品一覧 -->
         <div class=\"commodity\">
-            平均単価：<span id=\"buyPositionData\">00</span><br/>
+            <img src=\"";
+        // line 37
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/deal/image/blueDrink.png"), "html", null, true);
+        echo "\"/>
+            <br/>
             数量：<span id=\"buyPositionCount\">0</span><br/>
+            Hello ";
+        // line 40
+        echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")), "html", null, true);
+        echo "!
             ";
+        // line 42
+        echo "                ";
+        // line 43
+        echo "                ";
         // line 44
-        echo "                ";
+        echo "                    ";
         // line 45
-        echo "                ";
+        echo "                    ";
         // line 46
         echo "                    ";
         // line 47
-        echo "                    ";
+        echo "                ";
         // line 48
-        echo "                    ";
+        echo "                ";
         // line 49
         echo "                ";
         // line 50
         echo "                ";
         // line 51
-        echo "                ";
+        echo "                    ";
         // line 52
-        echo "                ";
+        echo "                    ";
         // line 53
         echo "                    ";
         // line 54
-        echo "                    ";
+        echo "                ";
         // line 55
-        echo "                    ";
+        echo "                ";
         // line 56
-        echo "                ";
-        // line 57
-        echo "                ";
-        // line 58
         echo "            ";
-        // line 59
+        // line 57
         echo "        </div>
+        <div class=\"money\">
+            <img src=\"";
+        // line 59
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/deal/image/gold.png"), "html", null, true);
+        echo "\"/>
+            <span class=\"gold\">1,000,000</span><br/>
+            (評価:+<span>123,456,789</span>)
+        </div>
     </div>
 ";
     }
@@ -149,6 +159,6 @@ class __TwigTemplate_ef540585dfc94266f383e3c5dec6b8d4 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  135 => 59,  133 => 58,  131 => 57,  129 => 56,  127 => 55,  125 => 54,  123 => 53,  121 => 52,  119 => 51,  117 => 50,  115 => 49,  113 => 48,  111 => 47,  109 => 46,  107 => 45,  105 => 44,  93 => 33,  88 => 29,  86 => 28,  84 => 27,  73 => 19,  70 => 18,  63 => 15,  60 => 14,  54 => 11,  49 => 10,  46 => 9,  40 => 7,  35 => 4,  32 => 3,);
+        return array (  141 => 59,  137 => 57,  135 => 56,  133 => 55,  131 => 54,  129 => 53,  127 => 52,  125 => 51,  123 => 50,  121 => 49,  119 => 48,  117 => 47,  115 => 46,  113 => 45,  111 => 44,  109 => 43,  107 => 42,  103 => 40,  97 => 37,  92 => 34,  87 => 30,  85 => 29,  83 => 28,  75 => 21,  72 => 20,  65 => 17,  62 => 16,  56 => 13,  51 => 12,  48 => 11,  42 => 9,  35 => 4,  32 => 3,);
     }
 }

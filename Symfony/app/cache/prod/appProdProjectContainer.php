@@ -984,6 +984,7 @@ class appProdProjectContainer extends Container
         $instance->addPath('/Users/amatsubame/GitHub/Ehrgeiz/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views', 'Twig');
         $instance->addPath('/Users/amatsubame/GitHub/Ehrgeiz/Symfony/vendor/symfony/swiftmailer-bundle/Symfony/Bundle/SwiftmailerBundle/Resources/views', 'Swiftmailer');
         $instance->addPath('/Users/amatsubame/GitHub/Ehrgeiz/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Resources/views', 'Doctrine');
+        $instance->addPath('/Users/amatsubame/GitHub/Ehrgeiz/Symfony/src/Ehrgeiz/DealBundle/Resources/views', 'EhrgeizDeal');
         $instance->addPath('/Users/amatsubame/GitHub/Ehrgeiz/Symfony/app/Resources/views');
         $instance->addPath('/Users/amatsubame/GitHub/Ehrgeiz/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form');
         return $instance;
@@ -1103,6 +1104,7 @@ class appProdProjectContainer extends Container
                 'AsseticBundle' => 'Symfony\\Bundle\\AsseticBundle\\AsseticBundle',
                 'DoctrineBundle' => 'Doctrine\\Bundle\\DoctrineBundle\\DoctrineBundle',
                 'SensioFrameworkExtraBundle' => 'Sensio\\Bundle\\FrameworkExtraBundle\\SensioFrameworkExtraBundle',
+                'EhrgeizDealBundle' => 'Ehrgeiz\\DealBundle\\EhrgeizDealBundle',
             ),
             'kernel.charset' => 'UTF-8',
             'kernel.container_class' => 'appProdProjectContainer',

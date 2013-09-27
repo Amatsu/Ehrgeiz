@@ -2,6 +2,7 @@
 
 {% block meta %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0," />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 {% endblock %}
 
 {% block title %}Open Deal!!{% endblock %}
@@ -16,7 +17,6 @@
 {% endblock %}
 
 {% block body %}
-     Hello {{ name }}!
     <div class="main">
 
         <div class="chart">
@@ -31,15 +31,12 @@
         </div>
         {#<input type="button" id="writeChart" value="実行" />#}
         <div class="price">9,800</div>
-        <div class="money">
-            <!-- <img src="image/money.gif"/> -->
-            保有資産：<span id="fund">1000000</span><br/>
-            (評価損益:<span>1000</span>)<br/>
-        </div>
         <!--売買商品一覧 -->
         <div class="commodity">
-            平均単価：<span id="buyPositionData">00</span><br/>
+            <img src="{{ asset('bundles/deal/image/blueDrink.png') }}"/>
+            <br/>
             数量：<span id="buyPositionCount">0</span><br/>
+            Hello {{ name }}!
             {#<table class="positionList">#}
                 {#<thead>#}
                 {#<tr>#}
@@ -56,6 +53,11 @@
                 {#</tr>#}
                 {#</tbody>#}
             {#</table>#}
+        </div>
+        <div class="money">
+            <img src="{{ asset('bundles/deal/image/gold.png') }}"/>
+            <span class="gold">1,000,000</span><br/>
+            (評価:+<span>123,456,789</span>)
         </div>
     </div>
 {% endblock %}

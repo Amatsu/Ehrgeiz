@@ -3,7 +3,9 @@ body{
 }
 
 div.main{
-    margin: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 1px;
     width: 300px;
     height: 480px;
@@ -22,10 +24,12 @@ div.status{
 
 div.buttonList{
     margin-top: 10px;
+    margin-bottom: 0px;
 	width: 150px;
 	text-align: left;
 	clear: left;
     float: left;
+    /*border: solid 1px;*/
 }
 
 div.price{
@@ -37,20 +41,24 @@ div.price{
     font-size: 35px;
     text-align: right;
     width: 300px;
-    margin: 0px;
-}
-
-div.money{
-    text-align: right;
-	height:50px;
-    width: 300px;
-	margin: 0px;
 }
 
 div.commodity{
+    top: -40px;
+    position: relative;
     width: 300px;
     height: 150px;
     text-align: right;
+    /*border: solid 1px;*/
+}
+
+div.money{
+    top: -40px;
+    position: relative;
+    width: 300px;
+}
+span.gold{
+    font-size: 25px;
 }
 
 /*button.buy {*/
